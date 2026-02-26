@@ -23,4 +23,4 @@ jobs:
           trigger_id: ${{fromJSON(github.event.inputs.scan_params).trigger_id}}
           api_endpoint: https://api.dev.boostsec.io
         env:
-          BOOST_SCANNER_REGISTRY_REPO: https://github.com/boostsecurityio/dev-registry.git
+          BOOST_SCANNER_REGISTRY_REPO: https://github.com/boostsecurityio/dev-registry.git#BST-19000-update-semgrep-semgrep-pro-hash
